@@ -22,13 +22,4 @@ Instead of blindly trusting machine learning libraries, I coded my own barebones
 ### Results
 - Best single predictor: `odor` (apparently, mushrooms smell more reliable than your ex).  
 - Accuracy: ~88% with a simple threshold.  
-- False negatives (poison predicted as edible): very low, which is good, because death is a bad edge case.  
-
----
-
-### How to Run
-```bash
-git clone <this-repo>
-cd mushroom-classifier
-pip install -r requirements.txt
-jupyter notebook mushroom.ipynb
+- False negatives (poison predicted as edible): very low, which is good, because death is a bad edge case.
